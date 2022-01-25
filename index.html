@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>	
+  <title>Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="resources/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@300;400;700&family=Genos:wght@300;500;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li>Home</li>
+        <li>Projects</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div id = "welcome">
+      <div id = "message"> 
+        <h2>Hello! I am</h2>
+        <h1>Jerico Cabatingan</h1>
+        <p>I'm an aspiring <span id = "styled">Full-Stack Developer</span> hungry to break into this fast-moving and exciting industry.</p>
+        <button>Download CV</button>
+      </div>
+    </div>
+    <div id = "about-me">
+      <h2>About me</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias assumenda voluptate harum mollitia quos aliquam quia sed similique officia expedita odit, beatae velit id. Praesentium distinctio voluptas incidunt magnam eligendi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum fugit amet vitae in impedit exercitationem nostrum id, eaque adipisci voluptate architecto labore facere. Iste esse quas nemo illum nulla voluptate.</p> 
+      <figure>
+        <a href="https://www.freepnglogos.com/pics/html5-logo"><img src="/resources/images/languages.png" alt="Coding Languages"></a>
+      </figure>
+    </div>
+
+    <section id = "projects">
+      <h2>My Work</h2>
+      <div class = "project">
+        <ul>
+          <li>Challenges</li>
+          <li>Solutions</li>
+          <li>Noteable Features</li>
+          <li>Technologies Used</li>
+        </ul>
+        <figure>
+          <img id = "project1" src="resources/images/project1.webp" alt="First Project- Dog school">
+        </figure>
+      </div>
+
+      <div class = "project">
+        <ul>
+          <li>Challenges</li>
+          <li>Solutions</li>
+          <li>Noteable Features</li>
+          <li>Technologies Used</li>
+        </ul>
+        <figure>
+          <img id = "project2" src="resources/images/project2.png" alt="Second project- Martial arts club">
+        </figure>
+      </div>
+
+      <div class = "project">
+        <ul>
+          <li>Challenges</li>
+          <li>Solutions</li>
+          <li>Noteable Features</li>
+          <li>Technologies Used</li>
+        </ul>
+        <figure>
+          <img id = "project3" src="resources/images/project3.webp" alt="Third project- random message generator">
+        </figure>
+      </div>
+    </section>
+
+    <section id = "contact">
+      <form action="/example.html" method="POST">
+        <fieldset>
+          <legend>Contact Me</legend>
+          <label for="fname">First Name:</label>
+          <input type="text" name="fname" id="fname" required>
+
+          <label for="lname">Last Name:</label>
+          <input type="text" name="lname" id = "lname" required>
+
+          <label for="email">E-mail:</label>
+          <input type="text" name="email" id = "email" placeholder="example@email.com" required>
+
+          <label for="phone">Mobile:</label>
+          <input type="text" name="phone" id = "phone" required pattern="[0-9]{11,12}">
+
+          <div class="reply">
+            <span>How would you like to be contacted?</span>
+            <br>
+            <input type="radio" name="reply" id="reply-email" value="email" required>
+            <label for="reply-email">E-mail</label>
+
+            <input type="radio" name="reply" id="reply-text" value="text">
+            <label for="reply-text">Text</label>
+
+            <input type="radio" name="reply" id="reply-phone" value="phone">
+            <label for="reply-phone">Phone</label>
+          </div>
+
+          <label for="enquiry">What is your Enquiry? </label>
+          <textarea name="enquiry" id="enquiry" cols="30" rows="5" minlength="10" maxlength="500" required></textarea>
+
+          <input type="submit" value="Submit">
+        </fieldset>
+      </form>
+
+      
+    </section>
+  </main>
+
+  <footer>
+    <div id = "wrapper">
+        <figure class = "icons">
+          <a href="">
+            <img src="/resources/images/fb.png" alt="facebook">
+          </a>
+        </figure>
+
+        <figure class = "icons">
+          <a href="">
+            <img src="resources/images/twt.png" alt="twitter">
+          </a>
+        </figure>
+
+        <figure class = "icons">
+          <a href="">
+            <img src="/resources/images/Lnkin.png" alt="Linked In">
+          </a>
+        </figure>
+
+        <figure class = "icons">
+          <a href="">
+            <img src="/resources/images/gthub.png" alt="Github">
+          </a>
+        </figure>
+      </div>
+    &copy;Copyright 2022 All Rights Reserved
+  </footer>
+</body>
+</html>

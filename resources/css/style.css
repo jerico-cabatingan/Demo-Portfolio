@@ -1,0 +1,309 @@
+* {
+  font-size: 16px;
+  border: 0px solid black;
+  padding: 0;
+  margin: 0;
+}
+/* Header */
+
+nav {
+  width: 100vw;
+  height: auto;
+  position: fixed;
+  background-color: #205053;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.384);
+  z-index: 10;
+}
+
+nav ul {
+  text-align: right;
+}
+
+nav li {
+  margin: 0 30px 0 0;
+  padding: 10px;
+  display: inline-block;
+  font-family: 'Helvetica';
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+nav li:hover {
+  color: rgb(185, 185, 185);
+  letter-spacing: 4px;
+  font-weight: 700;
+}
+
+/* Welcome Sections */
+
+#welcome {
+  position: relative;
+  top: 0px;
+  background-image: url(/resources/images/banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 52.3vw;
+}
+
+#message {
+  padding-left: 10%;
+  position: relative;
+  top: 20%;
+  font-size: 2rem;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: 700;
+  font-family: 'Helvetica';
+  color: aliceblue;
+  text-shadow: rgba(0, 0, 0, 0.363) 2px 2px 3px;
+}
+
+h2 {
+  font-family: "helvetica";
+  color: black;
+  font-size: 1em;
+}
+
+#styled {
+  font-family: "Genos";
+  font-size: 1.5em;
+  font-weight: 700;
+  color: white;
+  text-shadow: rgba(0, 0, 0, 0.363) 2px 2px 3px;
+}
+
+button {
+  position: relative;
+  top: 20px;
+  color: white;
+  font: "Helvetica";
+  font-weight: 700;
+  letter-spacing: 1px;
+  background-color: #4f5f70;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.363) 2px 2px 3px;
+}
+
+button:hover {
+padding: 21px;
+color: rgb(134, 134, 134);
+}
+
+#message p{
+  font-size: 1.2rem;
+  font-family: 'Helvetica', sans-serif;
+  width: 50%;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* About Me */
+
+#about-me {
+}
+
+#about-me h2 {
+  position: relative;
+  bottom: 40px;
+  font-size: 2rem;
+  margin-left: 10%;
+  border-bottom: black solid 3px;
+  font-family: "Commissioner";
+}
+
+#about-me p {
+  padding: 50px 0;
+  font-family: "Helvetica";
+  letter-spacing: 2px;
+  margin:  0 10%;
+  font-size: 1.1em;
+  line-height: 25px;
+}
+
+#about-me figure{
+  width: 20%;
+  margin: 50px auto;
+}
+
+#about-me img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+/* Projects */
+
+.project {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.233);
+  background-color: #f1eae7;
+  margin-bottom: 5%;
+  height: auto;
+}
+
+#projects h2 {
+  font-family: "Commissioner";
+  margin-left: 10%;
+  padding: 3rem 0;
+  font-size: 2rem;
+  text-align: left;
+}
+
+#projects ul {
+  margin-left: 20px;
+  padding: 30px;
+  min-width: 30vw;
+}
+
+#projects li {
+  font-family: "Helvetica";
+  padding: 20px 20px 20px 0;
+  font-size: 1.5rem;
+  border-bottom: #205053 solid 0.5px;
+  list-style: none;
+}
+
+.project li:hover {
+  color: antiquewhite;
+  font-weight: 700;
+  text-shadow: rgba(0, 0, 0, 0.363) 2px 2px 3px;
+}
+
+.project figure {
+  max-height: 600px;
+  min-height: 400px;
+  width: 60%;
+  overflow: hidden;
+}
+
+#project1 {
+  width: 100%;
+  object-position: center -200px;
+}
+
+#project2 {
+  width: 120%;
+  object-position: center center;
+}
+
+#project3 {
+  width: 100%;
+}
+
+/* Contact page */
+
+
+
+form {
+  width: 60%;
+  max-width: 1200px;
+  margin: 0 auto 10rem;
+  height: fit-content;
+}
+
+fieldset {
+  border: 2px solid rgb(214, 214, 214);
+  border-radius: 10px;
+  padding: 3rem 5rem;
+}
+
+legend {
+  text-align: center;
+  padding: 1rem;
+  font-size: 2rem;
+  font-family: "Commissioner";
+  font-weight: bold;
+  background-color: white;
+}
+
+label {
+  display: block;
+  font-family: "Roboto";
+  font-size: 1.2rem;
+  padding: 0.2rem;
+  margin: 0 0 0.2rem 1rem;
+  
+}
+
+input {
+  display: block;
+  border: grey .5px solid;
+  padding: 0.5rem;
+  margin: 0 0 2rem 1rem;
+}
+
+input[type="text"] {
+  width: 50%;
+}
+
+input[type="submit"] {
+  position: relative;
+  top: 20px;
+  color: white;
+  font: "Commissioner";
+  font-weight: 700;
+  letter-spacing: 2px;
+  background-color: #4f5f70;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.363) 2px 2px 3px;
+  margin: 1rem auto;
+}
+
+textarea {
+  border: grey 1px solid;
+  padding: 0.5rem;
+  margin: 0 0 1rem 1rem;
+  font-size: 1rem;
+}
+
+.reply span {
+  display: block; 
+  font-family: "Roboto";
+  font-size: 1.2rem;
+  padding: 0.2rem;
+  margin: 0 0 0.2rem 1rem;
+}
+
+.reply input, .reply label {
+  display: inline;
+}
+
+.reply label {
+  margin-right: 2rem;
+  margin-left: 0.2rem;
+}
+
+#contact h2 {
+  font-size: 2rem; 
+  font-family: "commissioner";
+  text-align: center;
+  border-bottom: 3px black solid;
+  margin: 10% 5%
+}
+/* Footer */
+
+#wrapper {
+  display: flex;
+  margin: 20px auto;
+  justify-content: space-evenly;
+  max-width: 700px;
+}
+
+.icons img {
+  height: 60px;
+  width: 60px;
+}
+
+footer {
+  text-align: center;
+  font-family: "Helvetica";
+  padding: 10px;
+}
