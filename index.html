@@ -5,15 +5,17 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="resources/css/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@300;400;700&family=Genos:wght@300;500;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="resources/css/media.css">
+  <link href="https://fonts.googleapis.com/css2?family=Angkor&family=Black+Ops+One&family=Commissioner:wght@300;400;700&family=Genos:wght@300;500;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
     <nav>
       <ul>
-        <li>Home</li>
-        <li>Projects</li>
-        <li>Contact</li>
+        <li><a href="#welcome">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Get in Touch!</a></li>
+        <li><button>Download CV</button></li>
       </ul>
     </nav>
   </header>
@@ -23,8 +25,8 @@
       <div id = "message"> 
         <h2>Hello! I am</h2>
         <h1>Jerico Cabatingan</h1>
-        <p>I'm an aspiring <span id = "styled">Full-Stack Developer</span> hungry to break into this fast-moving and exciting industry.</p>
-        <button>Download CV</button>
+        <p>An aspiring <span id = "styled">Full-Stack Developer</span> hungry to break into this fast-moving and exciting industry.</p>
+        <button id = 'cv'>Download CV</button>
       </div>
     </div>
     <div id = "about-me">
@@ -41,11 +43,12 @@
         <ul>
           <li>Challenges</li>
           <li>Solutions</li>
-          <li>Noteable Features</li>
-          <li>Technologies Used</li>
+          <li>Features</li>
+          <li>Technologies</li>
         </ul>
         <figure>
-          <img id = "project1" src="resources/images/project1.webp" alt="First Project- Dog school">
+          <img id = "project1" src="resources/images/project1.jpg" alt="First Project- Dog school">
+          <h2 style = "font-family: Angkor;">Canine Einsteins</h2>
         </figure>
       </div>
 
@@ -53,11 +56,12 @@
         <ul>
           <li>Challenges</li>
           <li>Solutions</li>
-          <li>Noteable Features</li>
-          <li>Technologies Used</li>
+          <li>Features</li>
+          <li>Technologies</li>
         </ul>
         <figure>
-          <img id = "project2" src="resources/images/project2.png" alt="Second project- Martial arts club">
+          <img id = "project2" src="resources/images/project2.jpg" alt="Second project- Martial arts club">
+          <h2 style = "font-family: black Ops One;" style = "font-size: 4rem;">Martial Arts Club</h2>
         </figure>
       </div>
 
@@ -65,11 +69,12 @@
         <ul>
           <li>Challenges</li>
           <li>Solutions</li>
-          <li>Noteable Features</li>
-          <li>Technologies Used</li>
+          <li>Features</li>
+          <li>Technologies</li>
         </ul>
         <figure>
-          <img id = "project3" src="resources/images/project3.webp" alt="Third project- random message generator">
+          <img id = "project3" src="resources/images/project3.jpg" alt="Third project- random message generator">
+          <h2 id = 'three' style = "font-family: Genos;">Mixed Messages</h2>
         </figure>
       </div>
     </section>
@@ -109,33 +114,31 @@
           <input type="submit" value="Submit">
         </fieldset>
       </form>
-
-      
     </section>
   </main>
 
   <footer>
     <div id = "wrapper">
         <figure class = "icons">
-          <a href="">
+          <a href="https://www.facebook.com">
             <img src="/resources/images/fb.png" alt="facebook">
           </a>
         </figure>
 
         <figure class = "icons">
-          <a href="">
+          <a href="https://twitter.com">
             <img src="resources/images/twt.png" alt="twitter">
           </a>
         </figure>
 
         <figure class = "icons">
-          <a href="">
+          <a href="https://www.linkedin.com">
             <img src="/resources/images/Lnkin.png" alt="Linked In">
           </a>
         </figure>
 
         <figure class = "icons">
-          <a href="">
+          <a href="https://github.com">
             <img src="/resources/images/gthub.png" alt="Github">
           </a>
         </figure>

@@ -1,0 +1,353 @@
+@media only screen and (min-width: 1600px) {
+  nav a {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  #message p {
+    font-size: 1.8rem;
+  }
+
+  #cv {
+    top: 40px;
+    font-size: 1.5rem;
+    padding: 30px;
+    border-radius: 30px;
+  }
+
+  #about-me h2 {
+    font-size: 3rem;
+    position: relative;
+    bottom: 60px;
+  }
+
+  #projects h2:first-child {
+    font-size: 3rem;
+  }
+
+  #about-me p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+
+  #projects li {
+    font-size: 2rem;
+    margin-top: 3rem;
+  }
+
+  legend {
+    font-size: 3rem;
+  }
+
+  form label, form input, .reply span, .reply label {
+    font-size: 1.5rem;
+  }
+  
+  input[type="submit"] {
+    font-size: 2rem;
+    letter-spacing: 2px;
+    border-radius: 30px;
+    padding: 20px; 
+  }
+}
+
+@media only screen and (max-width: 1112px) {
+  h1 {
+    font-size: 1.5em;
+  }
+
+  #message p {
+    width: 63%;
+  }
+
+  nav ul {
+    text-align: center;
+  }
+
+  #cv {
+    display: none;
+  }
+
+  nav li button {
+    display: inline-block;
+    color: white;
+    font: "Helvetica";
+    font-weight: 700;
+    letter-spacing: 1px;
+    background-color: #4f5f70;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.363) 2px 2px 3px;
+  }
+
+  nav li button:hover {
+    letter-spacing: 2px;
+    color: hsl(37, 100%, 88%);
+    }
+
+  fieldset {
+    padding: 3rem 10%;
+    }
+  
+  .reply label {
+    margin-right: 1.5rem;
+    margin-left: 0.2rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #projects li {
+    padding: 15px 15px 15px 0;
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 1.3em;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  #message p {
+    font-size: 0.8rem;
+  }
+
+  nav li {
+    margin: 0 10px 0 0;
+    padding: 5px;
+    display: inline-block;
+  }
+
+  nav a {
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+
+  nav li button {
+    font-size: 0.7rem;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    padding: 7px;
+  }
+
+  #about-me h2, #projects h2:first-child {
+    font-size: 1.5rem;
+    position: relative;
+    bottom: 30px;
+  }
+
+  #about-me p {
+    letter-spacing: 1px;
+    font-size: 0.8em;
+    line-height: 20px;
+  }
+
+  #about-me figure{
+    width: 40%;
+    margin: 50px auto;
+  }
+
+  #projects ul {
+    margin: 0;
+    padding: 0 0 30px 30px;
+  }
+
+  #projects li {
+    font-size: 0.9rem;
+  }
+
+  .project figure h2 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  .project figure #three {
+    font-size: 2.5rem;
+  }
+
+  form {
+    width: 90%;
+  }
+  
+  legend {
+    font-size: 1.5rem;
+  }
+
+  form label, form input, .reply span, .reply label {
+    font-size: 1rem;
+  }
+  
+  input[type="submit"] {
+    font-size: 1rem;
+    letter-spacing: 2px;
+    border-radius: 15px;
+    padding: 10px; 
+  }
+
+  .icons img {
+    height: 50px;
+    width: 50px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  nav li {
+    margin: 0 7px 0 0;
+  }
+
+  nav a {
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0;
+  }
+
+  #welcome {
+    height: 65vh;
+    min-height: 600px;
+    background-position: 75% center;
+  }
+
+  #message {
+    padding-left: 5%;
+    top: 13%;
+    width: 50vw;
+  }
+
+  #styled {
+    font-family: 'Helvetica';
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+    padding: 15px 0;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+  
+  #message p {
+    font-size: 1rem;
+    width: 100%;
+    letter-spacing: 0;
+  }
+
+  #about-me p {
+    padding: 0;
+    font-size: 0.9em;
+    line-height: 20px;
+    letter-spacing: 0;
+  }
+
+  #about-me figure {
+    width: 35%;
+    margin: 50px auto 20px;
+  }
+
+  #about-me h2, #projects h2:first-child {
+    font-size: 1.5rem;
+    position: relative;
+    bottom: 29px;
+    border-bottom: 2px solid rgb(82, 82, 82);
+  }
+
+  #projects h2:first-child {
+    margin-bottom: 15px;
+  }
+
+  #projects ul {
+    padding: 15px;
+    min-width: 25vw;
+  }
+
+  .project figure {
+    width: 80%;
+  }
+
+  .icons img {
+    height: 40px;
+    width: 40px;
+  }
+
+  legend {
+    font-size: 1.6rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  nav li button {
+    padding: 5px;
+    letter-spacing: 0px;
+  }
+
+  nav li { 
+    margin: 0;
+  }
+
+  #welcome {
+    min-height: 500px;
+    background-position: 80% center;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.7rem;
+  }
+
+  #message p {
+    font-size: 0.8rem;
+  }
+
+  .project {
+    flex-direction: column;
+  }
+
+  #projects ul {
+    padding: 10px;
+  }
+
+  #projects ul li {
+    display: inline-block;
+    text-align: center;
+    padding: 0 7px;
+    border-bottom: 0;
+    font-size: 0.8rem;
+    font-weight: 550;
+    font-family: "Commissioner";
+    color:rgb(82, 82, 82);
+  }
+
+  .project figure {
+    width: 100vw;
+  }
+
+  form {
+    width: 100%;
+    margin: 0 auto 5rem;
+  }
+
+  fieldset {
+    border: 0px;
+    padding: 0 10px;
+  }
+
+  .icons img {
+    height: 30px;
+    width: 30px;
+  }
+}
