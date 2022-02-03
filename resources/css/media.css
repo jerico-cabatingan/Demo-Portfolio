@@ -33,13 +33,28 @@
   }
 
   #about-me p {
-    font-size: 1.5rem;
-    line-height: 2.5rem;
+    font-size: 2rem;
+    line-height: 3rem;
   }
+
+  #projects ul {
+    min-width: 20%;
+  }
+
+  #projects figure {
+    width: auto;
+  }
+  
 
   #projects li {
     font-size: 2rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
+  }
+
+  .project figure p {
+    font-size: 1.5rem;
+    line-height: 30px;
+    letter-spacing: 2px;
   }
 
   legend {
@@ -175,6 +190,7 @@
   }
 
   form {
+    margin-top: 5rem;
     width: 90%;
   }
   
@@ -276,6 +292,12 @@
     width: 80%;
   }
 
+  .project figure p {
+    font-size: 1rem;
+    line-height: 20px;
+    letter-spacing: 0px;
+  }
+
   .icons img {
     height: 40px;
     width: 40px;
@@ -302,15 +324,16 @@
   }
 
   h1 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
 
   h2 {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
 
   #message p {
     font-size: 0.8rem;
+    width: 80%;
   }
 
   .project {

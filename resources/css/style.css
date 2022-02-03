@@ -149,7 +149,7 @@ h2 {
   background-color: #f1eae7;
   margin: 0 auto 3rem;
   height: auto;
-  max-width: 1500px;
+  max-width: 1300px;
 }
 
 #projects h2:first-child {
@@ -164,7 +164,7 @@ h2 {
 #projects ul {
   margin-left: 20px;
   padding: 30px;
-  min-width: 30vw;
+  min-width: 20vw;
 }
 
 #projects li {
@@ -184,19 +184,35 @@ h2 {
 .project figure {
   position: relative;
   height: min-content;
-  width: 60%;
+  width: 70%;
   overflow: hidden;
   background-color: black;
 }
 
+.project figure p {
+  position: absolute;
+  display: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.2rem;
+  line-height: 24px;
+  font-family: 'Roboto', sans-serif;
+  width: 65%;
+  letter-spacing: 1px;
+  color: white;
+  text-shadow: rgba(0, 0, 0, 0.274) 2px 2px 3px;
+}
+
 .project img {
-  opacity: 0.8;
+  opacity: 0.65;
   display: block;
   height: auto;
   width: 100%;
 }
 
 .project figure h2 {
+  display: block;
   position: absolute;
   text-align: center;
   top: 50%;
@@ -216,8 +232,8 @@ h2 {
 
 form {
   width: 60%;
-  max-width: 1200px;
-  margin: 0 auto 10rem;
+  max-width: 1300px;
+  margin: 10rem auto 10rem;
   height: fit-content;
 }
 
@@ -242,7 +258,6 @@ label {
   font-size: 1.2rem;
   padding: 0.2rem;
   margin: 0 0 0.2rem 1rem;
-  
 }
 
 input {
